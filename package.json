@@ -1,0 +1,16 @@
+{
+  "name": "github-api",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsp compile .",
+    "format": "tsp format **/*.tsp",
+    "format:check": "tsp format --check **/*.tsp"
+  },
+  "dependencies": {
+    "@typespec/compiler": "latest",
+    "@typespec/rest": "latest",
+    "@typespec/openapi3": "latest"
+  },
+  "private": true
+}
